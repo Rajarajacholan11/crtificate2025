@@ -1,6 +1,6 @@
 
 let btnxx=document.getElementById("btnxx");
-btnxx.addEventListener("click",()=>{generateCertificate()});
+btnxx.addEventListener("click",()=>{alert("clicked")});
 function generateCertificate() {
     let name = document.getElementById("name").value.trim();
     let course = document.getElementById("course").value.trim();
