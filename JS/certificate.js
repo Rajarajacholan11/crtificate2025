@@ -1,4 +1,4 @@
-
+alert("raj");
 let btnxx=document.getElementById("btnxx");
 btnxx.addEventListener("click",()=>{alert("clicked")});
 function generateCertificate() {
